@@ -71,3 +71,16 @@ section img {
 .aboutme h2, .faith h2 {
   color: #ff69b4;
 }
+
+section {
+  margin: 20px;
+  border: 2px solid #ff69b4; /* Add a border to sections */
+}
+
+section img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: auto;
+  border: 2px solid #ff69b4; /* Add a border to images */
+}
