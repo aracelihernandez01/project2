@@ -1,27 +1,36 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Arial', sans-serif; 
   color: #333;
   margin: 0;
   padding: 0;
-  background-color: #F8C6D8;
-  text-align: center;
+  background-color: #F8C6D8; /* Baby pink color */
 }
 
-h1 {
-  color: #ff69b4;
-  font-size: 70px;
+.playball-regular {
+  font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2 {
   font-family: 'Playball', cursive;
 }
 
+h1 {
+  text-align: center;
+  color: #ff69b4; 
+  font-size: 100px;
+}
+
 nav {
-  background-color: #ff69b4;
+  text-align: center;
+  background-color: #ff69b4; 
   padding: 10px 0;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
-  display: inline-block;
 }
 
 nav ul li {
@@ -33,23 +42,32 @@ nav ul li a {
   text-decoration: none;
   color: #fff;
   font-family: 'Playball', cursive;
-  font-size: 40px;
+  font-size: 50px;
+}
+
+nav, nav ul {
+  font-family: 'Playball', cursive;
 }
 
 section {
   margin: 20px;
 }
 
-.resume h2, .aboutme h2, .faith h2 {
-  color: #ff69b4;
-  font-family: 'Playball', cursive;
+section img {
+  display: block;
+  margin: 0 auto;
+  width: 200px; 
+  height: auto; 
+}
+
+.resume h2 {
+  color: #ff69b4; 
 }
 
 .resume p {
   font-size: 16px;
 }
 
-.aboutme img, .faith img {
-  width: 200px;
-  height: auto;
+.aboutme h2, .faith h2 {
+  color: #ff69b4;
 }
