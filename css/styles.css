@@ -74,7 +74,7 @@ section img {
 
 section {
   margin: 20px;
-  border: 2px solid #ff69b4; /* Add a border to sections */
+  border: 2px solid #ff69b4; 
 }
 
 section img {
@@ -82,5 +82,5 @@ section img {
   margin: 0 auto;
   width: 200px;
   height: auto;
-  border: 2px solid #ff69b4; /* Add a border to images */
+  border: 2px solid #ff69b4; 
 }
