@@ -3,7 +3,7 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 h1 {
@@ -29,7 +29,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff; 
+  color: #fff;
 }
 
 section {
@@ -38,7 +38,7 @@ section {
 
 
 .resume h2 {
-  color: #ff69b4;
+  color: #ff69b4; 
 }
 
 .resume p {
@@ -46,7 +46,7 @@ section {
 }
 
 .aboutme h2 {
-  color: #ff69b4; 
+  color: #ff69b4;
 }
 
 .aboutme img {
