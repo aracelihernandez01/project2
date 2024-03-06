@@ -1,0 +1,63 @@
+body {
+  font-family: 'Arial', sans-serif; 
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #4a4a4a;
+}
+
+nav {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+section {
+  margin: 20px;
+}
+
+
+.resume h2 {
+  color: #007bff;
+}
+
+.resume p {
+  font-size: 16px;
+}
+
+.aboutme h2 {
+  color: #28a745;
+}
+
+.aboutme img {
+  width: 200px;
+  height: auto;
+}
+
+.faith h2 {
+  color: #dc3545;
+}
+
+.faith img {
+  width: 300px;
+  height: auto;
+}
