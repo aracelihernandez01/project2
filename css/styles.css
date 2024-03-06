@@ -1,38 +1,27 @@
 body {
-  font-family: 'Arial', sans-serif; 
+  font-family: 'Arial', sans-serif;
   color: #333;
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: #F8C6D8;
+  text-align: center;
 }
 
-
-.playball-regular {
-  font-family: "Playball", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-h1, h2 {
+h1 {
+  color: #ff69b4;
+  font-size: 100px;
   font-family: 'Playball', cursive;
 }
 
-
-h1 {
-  text-align: center;
-  color: #ff69b4; 
-  font-size:100px;
-}
-
 nav {
-  text-align: center;
-  background-color: #ff69b4; 
+  background-color: #ff69b4;
   padding: 10px 0;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  display: inline-block;
 }
 
 nav ul li {
@@ -40,47 +29,27 @@ nav ul li {
   margin: 0 15px;
 }
 
-
 nav ul li a {
   text-decoration: none;
   color: #fff;
   font-family: 'Playball', cursive;
-  font-size:50px;
+  font-size: 50px;
 }
-
-nav, nav ul {
-  font-family: 'Playball', cursive;
-}
-
-
 
 section {
   margin: 20px;
 }
 
-
-.resume h2 {
-  color: #ff69b4; 
+.resume h2, .aboutme h2, .faith h2 {
+  color: #ff69b4;
+  font-family: 'Playball', cursive;
 }
 
 .resume p {
   font-size: 16px;
 }
 
-.aboutme h2 {
-  color: #ff69b4;
-}
-
-.aboutme img {
+.aboutme img, .faith img {
   width: 200px;
-  height: auto;
-}
-
-.faith h2 {
-  color: #ff69b4;
-}
-
-.faith img {
-  width: 300px;
   height: auto;
 }
