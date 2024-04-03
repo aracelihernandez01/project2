@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 section {
-  float: right; 
+  float: left; 
   width: 75%;
   margin: 1.25rem;
   border: 0.125rem solid #ff69b4;
@@ -62,7 +62,7 @@ section .image-container img {
 }
 
 section .image-container img:nth-child(4n) {
-  float: right;
+  float: left;
   margin-right: 0;
 }
 
