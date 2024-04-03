@@ -3,7 +3,7 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
-  background-color: #F8C6D8; /* Baby pink color */
+  background-color: #F8C6D8; 
 }
 
 .playball-regular {
@@ -23,6 +23,8 @@ h1 {
 }
 
 nav {
+  float: left;
+  width: 20%;
   text-align: center;
   background-color: #ff69b4; 
   padding: 10px 0;
@@ -50,14 +52,19 @@ nav, nav ul {
 }
 
 section {
+  position: relative;
+  margin-left: 22%;
   margin: 20px;
+  border: 2px solid #ff69b4; 
 }
 
 section img {
+  float: right;
+  margin-left: 20px;
   display: block;
-  margin: 0 auto;
-  width: 200px; 
-  height: auto; 
+  width: 200px;
+  height: auto;
+  border: 2px solid #ff69b4; 
 }
 
 .resume h2 {
@@ -72,15 +79,12 @@ section img {
   color: #ff69b4;
 }
 
-section {
-  margin: 20px;
-  border: 2px solid #ff69b4; 
-}
-
-section img {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
-  height: auto;
-  border: 2px solid #ff69b4; 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff69b4;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
 }
