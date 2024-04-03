@@ -1,9 +1,9 @@
 body {
-  font-family: 'Arial', sans-serif; 
+  font-family: 'Arial', 'Helvetica', sans-serif;
   color: #333;
   margin: 0;
   padding: 0;
-  background-color: #F8C6D8; 
+  background-color: #F8C6D8;
 }
 
 .playball-regular {
@@ -18,16 +18,16 @@ h1, h2 {
 
 h1 {
   text-align: center;
-  color: #ff69b4; 
-  font-size: 40px;
+  color: #ff69b4;
+  font-size: 2.5rem;
 }
 
 nav {
   float: left;
   width: 20%;
   text-align: center;
-  background-color: #ff69b4; 
-  padding: 10px 0;
+  background-color: #ff69b4;
+  padding: 0.625rem 0;
 }
 
 nav ul {
@@ -37,14 +37,14 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin: 0 15px;
+  margin: 0 0.9375rem;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #fff;
   font-family: 'Playball', cursive;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 nav, nav ul {
@@ -54,29 +54,25 @@ nav, nav ul {
 section {
   position: relative;
   margin-left: 22%;
-  margin: 20px;
-  border: 2px solid #ff69b4; 
+  margin: 1.25rem;
+  border: 0.125rem solid #ff69b4;
 }
 
 section img {
   float: right;
-  margin-left: 20px;
+  margin-left: 1.25rem;
   display: block;
-  width: 200px;
+  width: 12.5rem;
   height: auto;
-  border: 2px solid #ff69b4; 
+  border: 0.125rem solid #ff69b4;
 }
 
-.resume h2 {
-  color: #ff69b4; 
+.resume h2, .aboutme h2, .faith h2 {
+  color: #ff69b4;
 }
 
 .resume p {
-  font-size: 16px;
-}
-
-.aboutme h2, .faith h2 {
-  color: #ff69b4;
+  font-size: 1rem;
 }
 
 footer {
@@ -85,6 +81,6 @@ footer {
   width: 100%;
   background-color: #ff69b4;
   text-align: center;
-  padding: 10px 0;
+  padding: 0.625rem 0;
   color: #fff;
 }
